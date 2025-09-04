@@ -11,8 +11,8 @@ import streamlit as st
 # PAGE CONFIG
 # =========================
 st.set_page_config(page_title="Suvichaar — Line-by-Line Explainer", page_icon="📚", layout="wide")
-st.title("📚 Suvichaar — Line-by-Line Explainer (Azure)")
-st.caption("Paste text or upload an image/PDF ➜ OCR (Azure DI) ➜ Auto-detect category ➜ Line/beat/paragraph explanations (Azure OpenAI) ➜ Export.")
+st.title("📚 Suvichaar — Line-by-Line Explainer ")
+st.caption("Paste text or upload an image/PDF ➜ OCR  ➜ Auto-detect category ➜ Line/beat/paragraph explanations (Azure OpenAI) ➜ Export.")
 
 # --- Azure Document Intelligence SDK (OCR) ---
 try:
